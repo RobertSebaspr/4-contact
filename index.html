@@ -24,27 +24,36 @@
         >
             <div class="form__container">
                 <h2 class="form__container">Contact Me</h2>
-                <input
-                    type="text"
-                    class="form__input"
-                    placeholder="Nombre:"
-                /><input
-                    type="email"
-                    name=""
-                    id=""
-                    class="form__input"
-                    placeholder="Email:"
-                    name="email"
-                /><textarea
-                    name=""
-                    id=""
-                    class="form__input form__input--message"
-                    placeholder="Message"
-                    name="message"
-                ></textarea
+				<label for="name">
+					<input
+						type="text"
+						class="form__input"
+						placeholder="Name:"
+						name="name"
+						required=""
+					/>
+				</label>
+				<label for="email">
+					<input
+						type="email"
+						id="email"
+						class="form__input"
+						placeholder="Email:"
+						name="email"
+						required=""
+					/>
+				</label>
+				<label for="message">
+					<textarea
+						id="message"
+						class="form__input form__input--message"
+						placeholder="Message"
+						name="message"
+					></textarea
+				</label>
                 ><input type="submit" value="Enviar" />
             </div>
-        </form>
+        </form> -->
         <script src="./index.js"></script>
     </body>
 </html>
